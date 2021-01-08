@@ -1,0 +1,49 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="assets/css/index.css">
+        <script src="assets/js/main.js"></script>
+    
+      
+    </head>
+
+    <body style="background-color: #e9ecef;">
+         
+            <section class="w3l-coming-soon-page">
+                <div class="coming-page-info-6">
+                    <div class="wrapper">
+                        
+                        <div class="coming-block">
+                             
+                            <h1>Type Your <br> Favourite Song</h1>
+                             
+                            <form action="#" method="post">
+                                 <div class="input">
+                                    <input type="text" id="searchtext" placeholder="Enter Song Title" required="">
+                                </div>
+                                <div class="button">
+                                    <button type="button" onclick="getSearchRecord()" class="btn">Search</button>
+                                </div>
+                            </form>
+                        </div>
+                         
+                    </div>
+                </div>
+         
+            </section>
+
+             
+            <br> 
+           
+            <div class="song" id="song">
+              </div>
+            <br>
+            <div class="song displaynone" id="lyric" >
+              <h1 id="lyricstitle"> </h1>
+              <b id="songlyrics"></b>
+            </div>
+            <br>
+            <a class="btn btn-success centertex displaynone" onclick="goBackBtn()" id="gobackbtn">Go Back</a>
+             <input type="hidden" id="nextbtnc"/>
+            <a class="btn btn-success centertex displaynone" onclick="paginationSong()" id="nextbtn">Next</a>
+     </body>
+</html>

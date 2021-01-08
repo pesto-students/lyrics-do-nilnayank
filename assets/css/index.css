@@ -1,0 +1,132 @@
+    .coming-page-info-6{
+        background:url(https://demo.w3layouts.com/demos_new/template_demo/30-09-2020/action-comingsoon-liberty-demo_Free/396081339/web/images/banner.jpg) no-repeat center;
+        background-size:cover;-webkit-background-size:cover;
+        -moz-background-size:cover;
+        -o-background-size:cover;
+        -ms-background-size:cover;
+        min-height: 150px !important;
+        min-height:calc(100vh - 0px);
+        position:relative;z-index:0;
+        display:grid;align-items:center;padding:30px 0;}
+    .coming-page-info-6 .coming-block{margin:50px auto;max-width:500px;text-align:center;padding:1em 0;display:grid;}
+    .coming-page-info-6 form{margin:30px 30px 0;}
+    .coming-page-info-6 h1{margin:0;font-size:46px;font-weight:900;color:#fff;line-height:1.1;text-transform:capitalize;}
+    .input input[type="text"]{outline:none;font-size:15px;font-weight:600;background:#fff;letter-spacing:1px;border:1px solid #e3e3e3;color:#8d8d8d;display:block;width:100%;text-align:center;padding:0 20px;margin-bottom:10px;-webkit-appearance:none;line-height:60px;border-radius:4px;font-family:'Montserrat', sans-serif;}
+    .button .btn{
+        width:100%;
+        font-size:20px;
+        font-weight:600;
+        text-transform:uppercase;
+        letter-spacing:1px;
+        border:none;
+        outline:none;
+        padding:0 20px;
+        line-height:60px;
+        border-radius:4px;
+        color:#fff;
+        background-size:200% auto;
+        background-image:linear-gradient(to right, #47c9e5, #329efb, #329efb);
+        }
+    .btnctr{
+        margin: auto;
+  width: 20%;
+  
+  padding: 10px;
+    }
+
+        .song {
+            position: relative;
+            display: -ms-flexbox;
+            display: flex;
+            -ms-flex-direction: column;
+            flex-direction: column;
+            min-width: 0;
+            word-wrap: break-word;
+            background-color: #fff;
+            background-clip: border-box;
+            border: 1px solid rgba(0,0,0,.125);
+            border-radius: .25rem;
+        }
+        .song-body {
+            margin-left: 9%;
+            margin-right: 9%;
+            -ms-flex: 1 1 auto;
+            flex: 1 1 auto;
+            min-height: 1px;
+            padding: 1.25rem;
+        }
+        .btn-success {
+            color: #fff;
+            background-color: #5cb85c;
+            border-color: #4cae4c;
+            float: right;;
+        }
+        .btn {
+            display: inline-block;
+            padding: 6px 12px;
+            margin-bottom: 0;
+            font-size: 20px;
+            font-weight: 400;
+            line-height: 1.42857143;
+            text-align: center;
+            white-space: nowrap;
+            vertical-align: middle;
+            -ms-touch-action: manipulation;
+            touch-action: manipulation;
+            cursor: pointer;
+            background-image: none;
+            border: 1px solid transparent;
+            border-radius: 4px;
+        }
+
+        body {font-family: Arial, Helvetica, sans-serif;}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+.displaynone{
+    display: none;
+}
+ 
+div#lyric {
+    text-align: center;
+    padding-bottom: 112px;
+}
+.centertex{
+    text-align: center;
+    margin-right: 46%;
+}
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
